@@ -26,15 +26,15 @@ class Optional extends JFrame {
     public static JCheckBox cbMap = new JCheckBox(Main.applyWhite("JourneyMap"));
     public static JCheckBox cbClean = new JCheckBox(Main.applyWhite("CleanView"));
     public static JCheckBox cbNeat = new JCheckBox(Main.applyWhite("Neat"));
-    public static JCheckBox cbRecipe = new JCheckBox(Main.applyWhite("NoRecipeBook"));
+    public static JCheckBox cbRecipe = new JCheckBox(Main.applyWhite("FullScreenWindowed"));
     public static JCheckBox cbSound = new JCheckBox(Main.applyWhite("Sound Filters"));
     public static JCheckBox cbYarr = new JCheckBox(Main.applyWhite("Cute Mob Models"));
     public static JCheckBox cbAmbient = new JCheckBox(Main.applyWhite("Ambient Sounds"));
-    public static JCheckBox cbFancy = new JCheckBox(Main.applyWhite("Fancy Particles"));
+    public static JCheckBox cbFancy = new JCheckBox(Main.applyWhite("Hwyla"));
     public static JCheckBox cbHealth = new JCheckBox(Main.applyWhite("Colorful Health"));
     public static JCheckBox cbDynamic = new JCheckBox(Main.applyWhite("Dynamic Surroundings"));
-    public static JCheckBox cbClient = new JCheckBox(Main.applyWhite("Client Tweaks"));
-    public static JCheckBox cbControl = new JCheckBox(Main.applyWhite("Controlling"));
+    public static JCheckBox cbClient = new JCheckBox(Main.applyWhite("Mouse Tweaks"));
+    public static JCheckBox cbControl = new JCheckBox(Main.applyWhite("Smooth Font"));
     public static JCheckBox cbFoilage = new JCheckBox(Main.applyWhite("Better Foilage"));
 
     private Color backgroundColor = new Color(44,47,51);
