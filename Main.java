@@ -415,20 +415,21 @@ public class Main {
 
         //note: kinda made it cleaner with methods? might automate further in future..
         String optionalPath = thisDirectory() + "Optional" + File.separator;
-        if(Optional.cbVisuals.isSelected()){ copyMod(optionalPath, "Visuals.jar"); }
-        if(Optional.cbMap.isSelected()){ copyMod(optionalPath, "Map.jar"); }
-        if(Optional.cbClean.isSelected()){ copyMod(optionalPath, "Clean.jar"); }
-        if(Optional.cbNeat.isSelected()){ copyMod(optionalPath, "Neat.jar"); }
-        if(Optional.cbRecipe.isSelected()){ copyMod(optionalPath, "Recipe.jar"); }
-        if(Optional.cbSound.isSelected()){ copyMod(optionalPath, "Sound.jar"); }
-        if(Optional.cbYarr.isSelected()){ copyMod(optionalPath, "Yarr.jar"); }
-        if(Optional.cbAmbient.isSelected()){ copyMod(optionalPath, "Ambient.jar"); }
-        if(Optional.cbFancy.isSelected()){ copyMod(optionalPath, "Fancy.jar"); }
-        if(Optional.cbHealth.isSelected()){ copyMod(optionalPath, "Health.jar"); }
-        if(Optional.cbDynamic.isSelected()){ copyMod(optionalPath, "Dynamic.jar"); }
-        if(Optional.cbClient.isSelected()){ copyMod(optionalPath, "Client.jar"); }
-        if(Optional.cbControl.isSelected()){ copyMod(optionalPath, "Control.jar"); }
-        if(Optional.cbFoilage.isSelected()){ copyMod(optionalPath, "Foilage.jar"); }
+        if(Optional.cbVisuals.isSelected()){ copyMod(optionalPath, "Visuals-1.12.2-7r.jar"); }
+        if(Optional.cbMap.isSelected()){ copyMod(optionalPath, "journeymap-1.12.2-5.5.5.jar"); }
+        if(Optional.cbClean.isSelected()){ copyMod(optionalPath, "CleanView-1.12.2-v1c.jar"); }
+        if(Optional.cbNeat.isSelected()){ copyMod(optionalPath, "Neat+1.4-17.jar"); }
+        if(Optional.cbRecipe.isSelected()){ copyMod(optionalPath, "FullscreenWindowed-1.12-1.6.0.jar"); }
+        if(Optional.cbSound.isSelected()){ copyMod(optionalPath, "SoundFilters-0.11_for_1.12.jar"); }
+        if(Optional.cbYarr.isSelected()){ copyMod(optionalPath, "YarrCuteMobModelsRemake-1.0.16-1.12.0.jar"); }
+        if(Optional.cbAmbient.isSelected()){ copyMod(optionalPath, "AmbientSounds_v3.0.9_mc1.12.2.jar"); }
+        if(Optional.cbFancy.isSelected()){ copyMod(optionalPath, "Hwyla-1.8.26-B41_1.12.2.jar"); }
+        if(Optional.cbHealth.isSelected()){ copyMod(optionalPath, "colorfulhealthbar-0.0.4.jar"); }
+        if(Optional.cbDynamic.isSelected()){ copyMod(optionalPath, "DynamicSurroundings-1.12.2-3.5.4.3.jar"); }
+        if(Optional.cbDynamic.isSelected()){ copyMod(optionalPath, "DynamicSurroundings-core-1.12.2-3.5.4.3.jar"); }
+        if(Optional.cbClient.isSelected()){ copyMod(optionalPath, "MouseTweaks-2.10-mc1.12.2.jar"); }
+        if(Optional.cbControl.isSelected()){ copyMod(optionalPath, "SmoothFont-mc1.12.2-2.1.jar"); }
+        if(Optional.cbFoilage.isSelected()){ copyMod(optionalPath, "BetterFoliage-MC1.12-2.2.0.jar"); }
 
         lukaLog(0, "stage five complete c:");
         fifthFrame.setVisible(false);
